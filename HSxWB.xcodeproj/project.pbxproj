@@ -97,6 +97,7 @@
 		A16B3BAC211EF76500AF9577 /* HSxWB */ = {
 			isa = PBXGroup;
 			children = (
+				A1E679ED212129F600CCCA34 /* Classes */,
 				A16B3BAD211EF76500AF9577 /* AppDelegate.swift */,
 				A16B3BAF211EF76500AF9577 /* ViewController.swift */,
 				A16B3BB1211EF76500AF9577 /* Main.storyboard */,
@@ -123,6 +124,53 @@
 				A16B3BCF211EF76600AF9577 /* Info.plist */,
 			);
 			path = HSxWBUITests;
+			sourceTree = "<group>";
+		};
+		A1E679ED212129F600CCCA34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E679EE212129F600CCCA34 /* Home */,
+				A1E679EF212129F600CCCA34 /* Discover */,
+				A1E679F0212129F600CCCA34 /* Message */,
+				A1E679F1212129F600CCCA34 /* Profile */,
+				A1E679F2212129F600CCCA34 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1E679EE212129F600CCCA34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1E679EF212129F600CCCA34 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		A1E679F0212129F600CCCA34 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		A1E679F1212129F600CCCA34 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A1E679F2212129F600CCCA34 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
 				INFOPLIST_FILE = HSxWB/Info.plist;
@@ -448,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XA34FPD68L;
 				INFOPLIST_FILE = HSxWB/Info.plist;
